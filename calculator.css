@@ -1,0 +1,48 @@
+body {
+    margin: 200px auto;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 7px;
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+}
+input {
+    border-radius: 7px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: grey;
+    color: white;
+}
+
+input:active {
+    box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.25);
+}
+
+.display {
+    width: 314px;
+    background-color: white;
+    color: black;
+    direction: rtl;
+}
+.reset {
+    width: 239px;
+    background-color: silver;
+    color: black;
+}
+.zero {
+    width: 154px;
+}
+
+.signs {
+    background-color: orange;
+    color: black;
+}
